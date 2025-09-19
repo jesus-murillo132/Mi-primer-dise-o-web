@@ -1,3 +1,89 @@
+codigo de la pagina 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página simple</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
 
-enlace a la pagina 
-http://127.0.0.1:5500/practica2.html
+  <div class="container">
+
+    <div class="row">
+      <div class="col bg-primary text-white p-3">
+        <h1>Gatos</h1>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col bg-secondary text-white text-center p-2">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">menu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">gato escoces</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">gato brimano</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">gato himalayo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">gato siames</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">gato Snowshoe</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-6 bg-info text-center p-4">
+        <h3>gato escoces:</h3>
+        <img src="img/fold  escoses.jpeg" class="img-thumbnail" alt="...">
+        <h3>gato brimano:</h3>
+        <img src="img/gato brimano.jpeg" class="img-thumbnail" alt="...">
+        <h3>gato himalayo:</h3>
+        <img src="img/Gato himalayo.webp" class="img-thumbnail" alt="...">
+        <h3>gato siames:</h3>
+        <img src="img/gato siames.webp" class="img-thumbnail" alt="...">
+        <h3>gato Snowshoe:</h3>
+        <img src="img/gato Snowshoe.jpeg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-6 bg-success text-white text-center p-4">
+        <h5>escoces: cariñoso, tranquilo, sociable y buen compañero familiar.</h5>
+        <h5>brimano: afectuoso, equilibrado, sociable y leal; se apega mucho a su familia.</h5>
+        <h5>himalayo: dócil, cariñoso, tranquilo y apegado a sus dueños.</h5>
+        <h5>siames: muy activo, juguetón, curioso y muy vocal (maúlla bastante).</h5>
+        <h5>Snowshoe: cariñoso, sociable, inteligente y activo; le gusta convivir con personas.</h5>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col bg-warning text-center p-3">
+        Murillo Arroyo Jesus Alejandro 3°D
+        <p></p>
+      </div>
+    </div>
+    
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
